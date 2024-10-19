@@ -1,0 +1,44 @@
+
+
+
+/*FOOTER CONFIG  -------- START*/
+
+.footer{
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.ul{
+  list-style: none;
+  display: column
+  flex-direction:row;
+  padding: 18px;
+  justify-content: center;
+  text-align: center;
+}
+.li{
+  padding: 15px;
+}
+.logo-footer{
+  height: 3em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;                            /*PRESENTACION*/
+}
+.logo-footer:hover {
+  filter: drop-shadow(0 0 2em #baff64);
+}
+.autor{
+  font-size: 24px;
+  color: #baff64;
+}
+
+
+
+
+
+
+
+
+
+
+/*FOOTER CONFIG  -------- END*/

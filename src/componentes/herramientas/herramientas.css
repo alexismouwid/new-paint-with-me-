@@ -1,0 +1,30 @@
+
+
+/*HERRAMIENTAS CONFIG  BUTTON TAMAÑO TRAZADO-------- START*/
+.opciones-herramientas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.btn-trazo{
+  position: relative;
+  bottom: 5px;
+  
+}
+
+.bubble{
+
+   position: relative;
+   
+  
+}
+.bubbleAlert{
+   
+        color: #000;
+    padding: 0;
+    font-size: 25px;
+  }
+
+/*HERRAMIENTAS CONFIG -------- END*/

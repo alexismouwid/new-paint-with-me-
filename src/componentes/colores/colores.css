@@ -1,0 +1,18 @@
+
+/*COLORES CONFIG -------- START*/
+.colores{
+
+display: flex;
+flex-direction: row;
+}
+
+.lista-colores{
+	align-items: center;                    /*COLORES*/
+	
+}
+
+
+
+
+*COLORES CONFIG -------- END*/
+/*___________________________________________________________________________________*/

@@ -17,7 +17,7 @@
 ---
 
 ## 📷 Vista previa  
-
+![Start](/public/paint.jpg) 
 ---
 
 ## 🛠️ Tecnologías utilizadas  

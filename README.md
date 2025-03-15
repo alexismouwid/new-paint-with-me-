@@ -1,8 +1,34 @@
-# React + Vite
+# 🎨 New Paint With Me  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a **New Paint With Me**! 🖌️ Este es un proyecto interactivo de dibujo en línea construido con **React y JavaScript**. Permite pintar, cambiar colores y crear figuras geométricas en un lienzo digital de manera sencilla e intuitiva.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características  
+✅ Dibuja líneas y formas con diferentes colores y grosores.  
+✅ Cambia entre modos de **pintura y borrado**.  
+✅ Soporte para **figuras geométricas**:  
+   - ⬛ **Cuadrados**  
+   - 🔵 **Círculos**  
+   - 🔺 **Triángulos**  
+✅ Interfaz minimalista y fácil de usar.  
+✅ Implementado con **React y JavaScript**.  
+
+---
+
+## 📷 Vista previa  
+
+---
+
+## 🛠️ Tecnologías utilizadas  
+- **React** ⚛️  
+- **JavaScript (ES6+)** 📜  
+- **CSS** 🎨  
+- **Canvas API** 🖼️
+- **ScrollReveal** 
+- **Hooks (useState, useEffect)**  
+
+---
+   
+## Visita el Desploy! Prueba la página aqui 🚀
+[Desploy](https://new-paint-with-me.vercel.app/)

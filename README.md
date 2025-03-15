@@ -17,7 +17,7 @@
 ---
 
 ## 📷 Vista previa  
-![Start](/public/paint.jpg) 
+![Start](/public/images/paint.jpg) 
 ..
 ---
 

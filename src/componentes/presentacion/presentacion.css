@@ -14,8 +14,11 @@
   filter: drop-shadow(0 0 2em #baff64);
 }
 .titulo{
+  width: 30%;
+  position: relative;
+  left: 35%;
+  background-color: transparent;
   font-size: 4em;
-  background-color: #242424;
   transition: filter 300ms;                            /*PRESENTACION*/
   color: rgba(255,255,255,0.5);                       
   transition:  filter 300ms;

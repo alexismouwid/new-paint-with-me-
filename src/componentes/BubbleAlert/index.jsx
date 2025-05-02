@@ -6,7 +6,7 @@ const BubbleAlert = ({ value }) => {
   };
 
   return (
-    <span className="bubbleAlert">
+    <span style={{ color: "#000" }} className="bubbleAlert">
       {getNumber(value)}
     </span>
   );

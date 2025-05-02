@@ -197,7 +197,7 @@ const Dibujo = () => {
     if (state.modeDelete) {
       ctxRef.current.beginPath();
       ctxRef.current.moveTo(initialXRef.current, initialYRef.current);
-      ctxRef.current.strokeStyle = '#fff';
+      ctxRef.current.strokeStyle = '#242424';
       ctxRef.current.lineWidth = state.currentWidth;
       ctxRef.current.lineCap = 'round';
       ctxRef.current.lineJoin = 'round';
@@ -308,26 +308,29 @@ const Dibujo = () => {
 
 return (
   <div className="dibujo">
-<canvas
-        ref={canvasRef}
-        width={800}
-        height={500}
-        style={{ border: '1px solid black' }}
-      />
-    <div className="container-herramientas">
-      <Herramientas 
+    <div className="ops-container"> 
+ <Herramientas 
         chooseAction={ChooseAction}
         Limpiar={Limpiar} // Pasa la función Limpiar
         Menos={Menos} // Pasa la función Menos
         Aumentar={Aumentar} // Pasa la función Aumentar
       />
-      
-      <Colores chooseColor={chooseColor} />
+
+ <Colores chooseColor={chooseColor} />
+
+
     </div>
+
+
+ <canvas
+        ref={canvasRef}
+        width={1500}
+        height={800}
+      />
+
+
+           
     
-    <div className="canvas-container">
-      
-    </div>
   </div>
 );
 };

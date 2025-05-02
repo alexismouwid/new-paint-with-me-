@@ -3,14 +3,23 @@
 .colores{
 
 display: flex;
-flex-direction: row;
+flex-direction: column;
 }
 
 .lista-colores{
-	align-items: center;                    /*COLORES*/
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	
 }
+div button {
 
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
 
 
 

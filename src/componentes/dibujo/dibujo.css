@@ -1,7 +1,10 @@
 /*CANVAS CONFIG ------- START */ 
 .dibujo{
+	display: flex;
+	flex-direction: row;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -11,21 +14,31 @@ canvas {
   border-bottom: 1px solid #8CDA05;
 	border-top: 1px solid #8CDA05;
 	border-radius : 25px;
-	width: 100%;
-	height: 100%;
+	width: 90%;
 	background-color: #242424;
 }
 
 .ops-container{
 	border: 1px solid #8CDA05;
-	padding: 10px 15px;
+	padding: 45px 20px;
 	border-radius : 25px;
+	width: 10%;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #242424;
+	color: #8CDA05;
+}
+
+.canvas-container{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
 	width: 100%;
 	height: 100%;
-	background-color: #242424;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 }
+
 
 
 

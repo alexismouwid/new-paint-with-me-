@@ -1,7 +1,7 @@
 
 
 /*HERRAMIENTAS CONFIG  BUTTON TAMAÑO TRAZADO-------- START*/
-.ops-herramientas{
+.herramientas{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }

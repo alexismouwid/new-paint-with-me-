@@ -42,7 +42,7 @@ const Herramientas = ({canvas,
   }, []); // Se ejecuta solo una vez al montar
 
    return (
-    <nav className="opciones-herramientas" ref={herramientasRef}>
+    <nav className="herramientas" ref={herramientasRef}>
       <button className="cleaner" onClick={Limpiar}>
         <img src={Limpiador} width="40" height="40" alt="Limpiar" />
       </button>

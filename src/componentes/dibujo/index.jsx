@@ -317,16 +317,16 @@ return (
       />
 
  <Colores chooseColor={chooseColor} />
-
-
     </div>
 
-
+    <div className="canvas-container">
  <canvas
         ref={canvasRef}
         width={1500}
         height={800}
       />
+
+    </div>
 
 
            

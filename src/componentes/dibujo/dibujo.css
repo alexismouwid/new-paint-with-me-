@@ -11,6 +11,7 @@
 canvas {
   border-bottom: 1px solid #8CDA05;
 	border-top: 1px solid #8CDA05;
+	border-right: 1px solid #8CDA05;
 	border-radius : 25px;
 	width: 90%;
 	background-color: #242424;
